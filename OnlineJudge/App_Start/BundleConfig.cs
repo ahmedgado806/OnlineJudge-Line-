@@ -38,6 +38,15 @@ namespace OnlineJudge
                         "~/Content/themes/base/jquery.ui.datepicker.css",
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
+            //My custom css files
+            bundles.Add(new StyleBundle("~/Assets/css").Include(
+                "~/Assets/css/bootstrap.css",
+                "~/Assets/css/responsive.css"));
+            //My custom javascript files
+            bundles.Add(new ScriptBundle("~/Assets/js").Include(
+                        "~/Assets/js/jquery-3.1.1.js",
+                        "~/Assets/js/bootstrap.js",
+                        "~/Assets/js/general.js"));
         }
     }
 }

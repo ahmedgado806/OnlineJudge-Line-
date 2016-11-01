@@ -304,6 +304,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Assets\css\" />
+    <Folder Include="Assets\js\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
