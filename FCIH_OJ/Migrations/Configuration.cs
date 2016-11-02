@@ -23,8 +23,11 @@ namespace FCIH_OJ.Migrations
             //
 
             context.Users.AddOrUpdate(
-                p => p.UserName,
-                new User { UserName = "root" }
+                p => p.Username,
+                new User { 
+                    Username = "root" ,
+                    Email = "root@root.com"
+                }
             );
         }
     }
